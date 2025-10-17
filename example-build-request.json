@@ -1,0 +1,19 @@
+{
+  "email": "student@example.com",
+  "secret": "dev-secret-123",
+  "task": "calculator-app",
+  "round": 1,
+  "nonce": "build-request-001",
+  "brief": "Create a functional calculator web application with the following requirements:\n\n1. Basic arithmetic operations: addition, subtraction, multiplication, division\n2. Clear button to reset the calculator\n3. Display showing current number and result\n4. Responsive design using Bootstrap 5\n5. Professional styling with hover effects\n6. Error handling for division by zero\n7. Support for decimal numbers\n8. Keyboard input support\n\nThe calculator should have a clean, modern interface similar to a mobile calculator app.",
+  "evaluation_url": "https://httpbin.org/post",
+  "checks": [
+    "Must have buttons for digits 0-9",
+    "Must have operation buttons (+, -, *, /)",
+    "Must have equals button (=)",
+    "Must have clear button (C)",
+    "Must have display area for numbers and results",
+    "Must handle decimal point entry",
+    "Must show error for division by zero"
+  ],
+  "attachments": []
+}

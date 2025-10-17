@@ -1,0 +1,20 @@
+{
+  "email": "student@example.com",
+  "secret": "dev-secret-123",
+  "task": "calculator-app",
+  "round": 2,
+  "nonce": "revise-request-001",
+  "brief": "Update the calculator application with these new features:\n\n1. Add a history panel showing the last 5 calculations\n2. Add memory functions: M+, M-, MR (Memory Recall), MC (Memory Clear)\n3. Add scientific functions: sin, cos, tan, sqrt, x²\n4. Add parentheses support for complex calculations\n5. Add a dark/light theme toggle switch\n6. Improve the layout to accommodate new buttons\n7. Add keyboard shortcuts help panel\n8. Store calculation history in localStorage\n\nKeep all existing functionality while adding these enhancements. The design should remain clean and professional.",
+  "evaluation_url": "https://httpbin.org/post",
+  "checks": [
+    "Must maintain all previous calculator functions",
+    "Must have history panel with last 5 calculations",
+    "Must have memory buttons (M+, M-, MR, MC)",
+    "Must have scientific function buttons",
+    "Must have theme toggle switch",
+    "Must support parentheses in calculations",
+    "Must show keyboard shortcuts help",
+    "Must persist history in localStorage"
+  ],
+  "attachments": []
+}
